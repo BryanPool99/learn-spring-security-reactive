@@ -7,4 +7,6 @@ Importancia:
 
 Pasos a seguir:
 1) La Dependencia: jjwt-api,jjwt-impl y jjwt-jackson
-2) El Proveedor de JWT (JwtProvider)-> generar token y validarlo
+2) El Proveedor de JWT (JwtProvider)-> generar token y validarlo <-- (La herramienta: firma y lee)
+3) El jefe(JwtAuthenticationManager): decide si el token sirve
+4) El guardia(JwtFilter): busca el token en el Header

@@ -1,4 +1,4 @@
-package com.bpao.learnSpringSecurity.model.dto;
+package com.bpao.learnSpringSecurity.model.dto.request;
 
 import lombok.*;
 
